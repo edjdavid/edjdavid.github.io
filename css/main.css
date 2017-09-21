@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+}
+
+body {
+	border: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+#date {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 20px;
+	text-align: right;
+}
+
+#message {
+	position: fixed;
+	right: 0;
+	top: 20px;
+}
+
+.message {
+	z-index: 999;
+	background-color: rgba(100, 100, 100, 0.4);
+	color: #fff;
+}
+
+circle.path-marker {
+	fill: red;
+}
+
+.hidden {
+	display: none;
+}
+
+.leaflet-popup-content {
+	text-align: center;
+}
+
+.fa {
+	font-size: 1.5em;
+}

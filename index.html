@@ -2,52 +2,13 @@
 <html>
 
 <head>
-  <title>Eduardo David Jr (Data Engineer, ACCeSs@AIM)</title>
+  <title>Leaflet/D3 Path Animation</title>
   <meta charset="utf-8" />
 
-  <style type="text/css">
-  html {
-    height: 100%;
-  }
-
-  body {
-    border: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  #map {
-    height: 100%;
-    width: 100%;
-  }
-
-  #date {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 20px;
-    text-align: right;
-  }
-
-  #message {
-    position: fixed;
-    right: 0;
-    top: 20px;
-  }
-
-  .message {
-    z-index: 999;
-    background-color: rgba(100, 100, 100, 0.4);
-    color: #fff;
-  }
-
-  circle.path-marker {
-    fill: red;
-  }
-  </style>
-  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/leaflet.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-mfizz.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -55,11 +16,37 @@
   <div id="date" class="message">----</div>
   <div id="message" class="message"></div>
 
+  <div class="hidden" id="p-feature-0">
+    <i class="fa fa-building" title="Elementary Physics"></i>
+    <i class="fa fa-laptop" title="Computer Methods in Physics"></i>
+  </div>
+
+  <p class="hidden" id="p-feature-1">
+      <i class="fa icon-html" title="GUI for Prototyping Web Pages"></i>
+      <i class="fa icon-java" title="CRM for Government Services"></i>
+  </p>
+
+  <p class="hidden" id="p-feature-2">
+    <i class="fa icon-mobile-device" title="School CMS + Mobile App"></i>
+    <i class="fa fa-bank" title="Banking Mobile App (Prototype)"></i>
+    <i class="fa fa-credit-card-alt" title="Mall Loyalty System"></i>
+  </p>
+
+  <p class="hidden" id="p-feature-3">
+    <i class="fa icon-go" title="Back-end Infrastructure"></i>
+    <i class="fa icon-python" title="Script Scheduler"></i>
+    <i class="fa fa-database" title="Extract, Load, Transform (ELT)"></i>
+    <i class="fa fa-location-arrow" title="Tracking System"></i>
+    <i class="fa fa-dashboard" title="Dashboards"></i>
+  </p>
+
+  <p class="hidden" id="p-feature-4">
+  </p>
+
   <script src="js/leaflet.js"></script>
   <script src="js/d3.min.js"></script>
   <script src="js/queue.js"></script>
-  <script src="js/pathAnimator.min.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/dist.min.js"></script>
 </body>
 
 </html>
