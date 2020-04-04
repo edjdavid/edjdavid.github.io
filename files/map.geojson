@@ -5,7 +5,7 @@
     "properties": {
       "startTime": "2009-06-01T00:00:00",
       "duration": 63072000,
-      "name": "Instructor (Physics)"
+      "name": "<b>Instructor (Physics)</b><i>University of the Philippines - Diliman</i>"
     },
     "geometry": {
       "type": "LineString",
@@ -18,7 +18,7 @@
     "properties": {
       "startTime": "2011-08-01T00:00:00",
       "duration": 31536000,
-      "name": "Software Developer"
+      "name": "<b>Junior Associate Software Developer</b><i>Azeus Systems Ltd.</i>"
     },
     "geometry": {
       "type": "LineString",
@@ -31,7 +31,7 @@
     "properties": {
       "startTime": "2012-08-01T00:00:00",
       "duration": 68256000,
-      "name": "Applications Developer"
+      "name": "<b>Applications Developer</b><i>Channel Technologies Inc.</i>"
     },
     "geometry": {
       "type": "LineString",
@@ -44,7 +44,7 @@
     "properties": {
       "startTime": "2015-05-01T00:00:00",
       "duration": 63072000,
-      "name": "Data Scientist"
+      "name": "<b>Data Scientist / DS Infrastructure</b><i>Freelancer.com Inc.</i>"
     },
     "geometry": {
       "type": "LineString",
@@ -57,7 +57,7 @@
     "properties": {
       "startTime": "2017-09-01T00:00:00",
       "duration": 63072000,
-      "name": "Data Engineer"
+      "name": "<b>Senior Data Engineer<br>Adjunct Faculty</b><i>ACCeSs@AIM<br>Aboitiz School of Innovation, Technology, and Entrepreneurship</i>"
     },
     "geometry": {
       "type": "Point",

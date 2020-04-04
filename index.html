@@ -2,19 +2,65 @@
 <html>
 
 <head>
-  <title>Leaflet/D3 Path Animation</title>
+  <meta charset="UTF-8">
+  <title>Eduardo David Jr.</title>
   <meta charset="utf-8" />
 
   <link rel="stylesheet" href="css/leaflet.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/font-mfizz.css">
+  <link rel="stylesheet" href="css/fa.all.min.css">
+  <link rel="stylesheet" href="css/pure-drawer.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <div id="map"></div>
-  <div id="date" class="message">----</div>
-  <div id="message" class="message"></div>
+  <div class="pure-container" data-effect="pure-effect-slide">
+    <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left" checked>
+    <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+        <span class="pure-toggle-icon"></span>
+    </label>
+
+    <div class="pure-drawer" data-position="left">
+        <!-- side bar content here -->
+        <div style="height: 100px;"></div>
+        <div style="padding-bottom: 20px;"><a href="https://github.com/edjdavid">&copy; 2020 Eduardo David Jr (edjdavid)</a></div>
+        <a href="https://geo.edjdavid.net/draw/">
+          <img src="image/leaflet_draw.png">
+          <h2>Drawing Geometries using Leaflet</h2>
+        </a>
+        <a href="https://geo.edjdavid.net/phyear/">
+          <img src="image/osm_year_compare.png">
+          <h2>Compare OSM States from 2015 and 2018</h2>
+        </a>
+        <a href="https://github.com/edjdavid/geospatial/blob/master/leaflet_gradient.html">
+          <img src="image/leaflet_gradient.png">
+          <h2>Radial Gradients in Leaflet</h2>
+        </a>
+        <a href="https://github.com/edjdavid/adventures/tree/master/python/py_speed">
+          <img src="image/py_speed.png">
+          <h2>Multi-processing and Multi-threading in Python</h2>
+        </a>
+        <a href="#">
+          <img src="image/agent_based_modelling.png">
+          <h2>Agent-based Modelling using Javascript</h2>
+        </a>
+        <a href="#">
+          <img src="image/network_analysis.png">
+          <h2>Network Analysis of Large Graphs Using Python</h2>
+        </a>
+    </div>
+    <div class="pure-pusher-container">
+        <div class="pure-pusher">
+            <!-- site content here -->
+            <div id="map"></div>
+            <div id="date-message">
+              <div id="date" class="message">----</div>
+              <div id="message" class="message"></div>
+            </div>
+        </div>
+    </div>
+    <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+</div>
+
 
   <div class="hidden" id="p-feature-0">
     <i class="fa fa-building" title="Elementary Physics"></i>
@@ -22,31 +68,35 @@
   </div>
 
   <p class="hidden" id="p-feature-1">
-      <i class="fa icon-html" title="GUI for Prototyping Web Pages"></i>
-      <i class="fa icon-java" title="CRM for Government Services"></i>
+      <i class="fa fa-code" title="HTML App for Prototyping Web Pages"></i>
+      <i class="fab fa-java" title="CRM for Government Services"></i>
   </p>
 
   <p class="hidden" id="p-feature-2">
-    <i class="fa icon-mobile-device" title="School CMS + Mobile App"></i>
-    <i class="fa fa-bank" title="Banking Mobile App (Prototype)"></i>
-    <i class="fa fa-credit-card-alt" title="Mall Loyalty System"></i>
+    <i class="fa fa-mobile-alt" title="Mobile App Development"></i>
+    <i class="fa fa-chalkboard-teacher" title="School CMS + Mobile App"></i>
+    <i class="fa fa-wallet" title="Banking Mobile App (Prototype)"></i>
+    <i class="fa fa-credit-card" title="Mall Loyalty System"></i>
   </p>
 
   <p class="hidden" id="p-feature-3">
-    <i class="fa icon-go" title="Back-end Infrastructure"></i>
-    <i class="fa icon-python" title="Script Scheduler"></i>
+    <i class="fa fa-network-wired" title="Back-end Infrastructure"></i>
+    <i class="fab fa-python" title="Query Scripts Scheduler"></i>
     <i class="fa fa-database" title="Extract, Load, Transform (ELT)"></i>
-    <i class="fa fa-location-arrow" title="Tracking System"></i>
-    <i class="fa fa-dashboard" title="Dashboards"></i>
+    <i class="fa fa-location-arrow" title="User Tracking System"></i>
+    <i class="fa fa-dashboard" title="Analytics Dashboards"></i>
   </p>
 
   <p class="hidden" id="p-feature-4">
+    <i class="fa fa-server" title="Supercomputer Maintenance"></i>
+    <i class="fab fa-python" title="Python Instructor"></i>
+    <i class="fa fa-globe" title="Geospatial Analysis"></i>
+    <i class="fa fa-spider" title="Data Wrangling"></i>
+    <i class="fa fa-hdd" title="Big Data Processing"></i>
+    <i class="fa fa-cloud" title="Cloud Computing"></i>
   </p>
 
-  <script src="js/leaflet.js"></script>
-  <script src="js/d3.min.js"></script>
-  <script src="js/queue.js"></script>
-  <script src="js/dist.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

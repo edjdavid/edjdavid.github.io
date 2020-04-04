@@ -14,25 +14,15 @@ body {
 	width: 100%;
 }
 
-#date {
+#date-message {
 	position: fixed;
 	top: 0;
 	right: 0;
-	width: 200px;
-	height: 20px;
-	text-align: right;
-}
-
-#message {
-	position: fixed;
-	right: 0;
-	top: 20px;
-}
-
-.message {
-	z-index: 999;
 	background-color: rgba(100, 100, 100, 0.4);
+	z-index: 999;
+	text-align: right;
 	color: #fff;
+	padding: 5px 10px;
 }
 
 circle.path-marker {
@@ -47,6 +37,38 @@ circle.path-marker {
 	text-align: center;
 }
 
-.fa {
+.job-label b, #message b {
+	display: block;
+}
+
+.fa, .fab {
 	font-size: 1.5em;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.pure-toggle-label {
+	height: 45px;
+	width: 45px;
+	border: none;
+}
+
+.pure-drawer {
+	color: white;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.pure-drawer a {
+	color: white;
+}
+
+.pure-drawer h2 {
+	padding: 0 5px;
+}
+
+.pure-drawer img {
+	width: 90%;
 }
