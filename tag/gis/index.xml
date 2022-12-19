@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gis | Eduardo David Jr</title>
+    <link>https://www.edjdavid.net/tag/gis/</link>
+      <atom:link href="https://www.edjdavid.net/tag/gis/index.xml" rel="self" type="application/rss+xml" />
+    <description>gis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.edjdavid.net/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>gis</title>
+      <link>https://www.edjdavid.net/tag/gis/</link>
+    </image>
+    
+    <item>
+      <title>Compare OSM from 2015 and 2018 &lt;br&gt; &lt;br&gt;</title>
+      <link>https://www.edjdavid.net/project/osm_compare/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.edjdavid.net/project/osm_compare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing Geometries using Leaflet&lt;br&gt; &lt;br&gt;</title>
+      <link>https://www.edjdavid.net/project/leaflet_draw/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.edjdavid.net/project/leaflet_draw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radial Gradients in Leaflet&lt;br&gt; &lt;br&gt;</title>
+      <link>https://www.edjdavid.net/project/leaflet_radial/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.edjdavid.net/project/leaflet_radial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
